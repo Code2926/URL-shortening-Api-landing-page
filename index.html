@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+    <link rel="icon" href="white_on_trans.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img class="nav-logo" src="https://url-shortening-links.netlify.app/images/logo.svg" alt="Shortly logo">
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+                <li class="nav-item"><a class="nav-link sm" href="#">Login</a></li>
+                <li class="nav-item"><a class="nav-link sm active" href="#">Sign up</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Sign up</a></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="features-section">
+            <div class="features-content">
+                <h1 class="features-title">More than just shorter links</h1>
+                <p class="features-text">Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+                <button class="features-content-btn">Get Started</button>
+            </div>
+            <div class="features-image">
+                <img src="https://url-shortening-links.netlify.app/images/illustration-working.svg" alt="Illustration of a person working">
+            </div>
+        </section>
+
+        <section class="shorten-section">
+            <div class="shorten-container">
+                <form id="shortenForm">
+                    <input type="text" id="linkInput" placeholder="Shorten a link here...">
+                    <button type="submit" class="btn btn-secondary">Shorten It!</button>
+                </form>
+            </div>
+            <div class="shorten-links">
+                <p id="errorMessage" class="error-message"></p>
+                <div id="shortenResults" class="shorten-results"></div>
+            </div>
+        </section>
+
+        <section class="statistics-section">
+            <div class="stats-container">
+                <h1 class="statistic__section-title">Advanced Statistics</h1>
+                <p class="statistic__section-description">Track how your links are performing across the web with our advanced statistics dashboard.</p>
+            </div>
+            <div class="statistics-cards-container">
+                <div class="statistics-card">
+                    <div class="stats-card-img">
+                        <img src="https://url-shortening-links.netlify.app/images/icon-brand-recognition.svg" alt="Brand recognition icon">
+                    </div>
+                    <h3 class="statistics-title">Brand Recognition</h3>
+                    <p class="statistics-text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+                </div>
+
+                <div class="statistics-card">
+                    <div class="stats-card-img">
+                        <img src="https://url-shortening-links.netlify.app/images/icon-detailed-records.svg" alt="Detailed records icon">
+                    </div>
+                    <h3 class="statistics-title">Detailed Records</h3>
+                    <p class="statistics-text">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+                </div>
+
+                <div class="statistics-card">
+                    <div class="stats-card-img">
+                        <img src="https://url-shortening-links.netlify.app/images/icon-fully-customizable.svg" alt="Fully customizable icon">
+                    </div>
+                    <h3 class="statistics-title">Fully Customizable</h3>
+                    <p class="statistics-text">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="boost-section">
+            <div class="boost-links">
+                <h2 class="boost-links-title">Boost your links today</h2>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h1 class="logo">Shortly</h1>
+        <div class="footer-links-container">
+            <ul class="footer-links">
+                <li>Features</li>
+                <li>Link Shortening</li>
+                <li>Branded links</li>
+                <li>Analytics</li>
+            </ul>
+            <ul class="footer-links">
+                <li>Resources</li>
+                <li>Blog</li>
+                <li>Developers</li>
+                <li>Support</li>
+            </ul>
+            <ul class="footer-links">
+                <li>Company</li>
+                <li>About</li>
+                <li>Our Team</li>
+                <li>Careers</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <img src="https://url-shortening-links.netlify.app/images/icon-facebook.svg" alt="Facebook" class="social-links">
+            <img src="twitter.png" alt="Twitter" class="social-links">
+            <img src="icons8-git-50-ezgif.com-resize.png" alt="GitHub" class="social-links">
+            <img src="https://url-shortening-links.netlify.app/images/icon-instagram.svg" alt="Instagram" class="social-links">
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
