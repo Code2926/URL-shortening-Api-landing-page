@@ -51,10 +51,7 @@ If you'd like to contribute to the Calculator project, please fork this reposito
 
 This project is licensed under the MIT License. See the LICENSE.txt file for details.
 
-## Getting Started
+## Contact
+---------
 
-To run this project locally, follow these steps:
-
-```bash
-cd shortly-url-shortening-api-challenge
-Open the index.html file in your browser to view the application.
+If you have any questions or feedback, please don't hesitate to contact me at [peekaboo29266@gmail.com] or [[(https://github.com/Code2926)]].
