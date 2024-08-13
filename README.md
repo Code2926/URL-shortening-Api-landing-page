@@ -15,7 +15,7 @@ This is a solution to the [Frontend Mentor Shortly URL shortening API Challenge]
 
 Shortly is a web application that allows users to shorten long URLs and track their performance. It features a modern design and an easy-to-use interface, enhancing user experience while providing valuable insights into link usage.
 
-![Shortly Logo](logo.png)
+![Shortly Logo](https://url-shortening-links.netlify.app/images/logo.svg)
 
 ## Features
 
