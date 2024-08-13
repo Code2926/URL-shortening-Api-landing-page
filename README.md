@@ -25,15 +25,6 @@ Shortly is a web application that allows users to shorten long URLs and track th
 - **User Authentication:** Allows users to log in and save their shortened links for later reference.
 - **Social Sharing:** Easy sharing of shortened links across social platforms.
 
-## Getting Started
-
-To run this project locally, follow these steps:
-
-```bash
-cd shortly-url-shortening-api-challenge
-
-Open the `index.html` file in your browser to view the application.
-
 ## Usage
 
 - **Shorten a Link:** Enter the URL you want to shorten and click the "Shorten It!" button.
