@@ -12,10 +12,6 @@
 </head>
 
 <body>
-    <div id="loading-container" class="loading-container">
-        <img src="logo.png" alt="Logo" class="logo">
-        <div class="loading-text">Loading...</div>
-    </div>
     <header>
         <div class="left">
             <img class="nav-logo" src="https://url-shortening-links.netlify.app/images/logo.svg" alt="Shortly logo">
@@ -137,27 +133,5 @@
     </footer>
 
     <script src="script.js"></script>
-    <script>
-        // Set a minimum display time for the loading screen
-        const minLoadingTime = 5000; // 5000 milliseconds = 5 seconds
-        const loadingStartTime = new Date().getTime();
-
-        window.addEventListener('load', function() {
-            const currentTime = new Date().getTime();
-            const elapsedTime = currentTime - loadingStartTime;
-            const remainingTime = minLoadingTime - elapsedTime;
-
-            if (remainingTime > 0) {
-                setTimeout(hideLoadingScreen, remainingTime);
-            } else {
-                hideLoadingScreen();
-            }
-        });
-
-        function hideLoadingScreen() {
-            document.getElementById('loading-container').style.display = 'none';
-            document.getElementById('content').style.display = 'block';
-        }
-    </script>
 </body>
 </html>
