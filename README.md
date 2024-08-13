@@ -35,7 +35,6 @@ Navigate to the project directory:
 ```bash
 cd shortly-url-shortening-api-challenge
 
-```markdown
 Open the `index.html` file in your browser to view the application.
 
 ## Usage
