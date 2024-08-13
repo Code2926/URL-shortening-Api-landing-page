@@ -34,6 +34,7 @@ Navigate to the project directory:
 
 ```bash
 cd shortly-url-shortening-api-challenge
+
 ```markdown
 Open the `index.html` file in your browser to view the application.
 
@@ -54,4 +55,12 @@ Open the `index.html` file in your browser to view the application.
 
 - [Frontend Mentor](https://www.frontendmentor.io) for providing the challenge and design assets.
 - [Icons8](https://icons8.com) for the GitHub icon used in the footer.
+
+## Contributing
+
+If you'd like to contribute to the Calculator project, please fork this repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE.txt file for details.
 ```
