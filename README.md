@@ -29,9 +29,6 @@ Shortly is a web application that allows users to shorten long URLs and track th
 
 To run this project locally, follow these steps:
 
-```markdown
-Navigate to the project directory:
-
 ```bash
 cd shortly-url-shortening-api-challenge
 
